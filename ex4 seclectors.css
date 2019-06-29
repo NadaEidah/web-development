@@ -1,0 +1,24 @@
+.styles  {
+
+	color: blue;
+	
+
+}
+
+.first-element {
+	
+	font-style:bold;
+}
+
+.link-inside{
+
+	color:red;
+}
+.link-outside {
+
+	color:green;
+}
+
+#s {
+	text-decoration: line-through;
+}

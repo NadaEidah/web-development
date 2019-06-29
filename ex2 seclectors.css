@@ -1,0 +1,23 @@
+body{
+	background-color: #f0f8ff;
+}
+
+.p {
+	
+	width: 75%;
+	min-width: 500px;
+	border-width:1px; color: #333333 ;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	background-color: white;
+
+
+}
+
+.heading {
+	background-color: blue;
+}
+
+
+
+
