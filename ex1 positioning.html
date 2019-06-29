@@ -1,0 +1,68 @@
+<!DECTYP html >
+<html> 
+<head>
+	<title>Exercise #1 </title>
+		Part III. (positioning) , Hiding from a list
+		<style type="text/css">
+		#list-odd 
+			{
+			height: 50px;
+			width: 50px; 
+			border: 1px solid black ; 
+			float : left; 
+			margin: 10px ;
+			border-color:black;
+			background-color: blue;
+			text-align: center;
+			width: 3em;
+			color: white;
+			visibility: collapse;
+			}
+
+		#list-prime  
+			{
+			height: 50px;
+			width: 50px; 
+			border: 1px solid black ; 
+			float : left; 
+			margin: 10px ;
+			border-color:black;
+			background-color: blue;
+			text-align: center;
+			width: 3em;
+			color: white;
+			visibility: collapse;
+			}
+		#list 	
+		{
+			height: 50px;
+			width: 50px; 
+			border: 1px solid black ; 
+			float : left; 
+			margin: 10px ;
+			border-color:black;
+			background-color: blue;
+			text-align: center;
+			width: 3em;
+			color: white;
+		}
+
+
+		</style>
+</head>
+<body>
+
+	<ul style= "list-style-type:none";>
+		<div id="list-odd" ><li> 1	</li></div>
+		<div id="list-prime"><li>2	</li></div>
+		<div id="list-odd" id=list-prime><li>3	</li></div>
+		<div id="list"><li>4	</li></div>
+		<div id="list-odd" id=list-prime><li>5	</li></div>
+		<div id="list"><li>6	</li></div>
+		<div id="list-odd" id=list-prime><li>7	</li></div>
+		<div id="list"><li>8	</li></div>
+		<div id="list-odd"><li>9	</li></div>
+		<div id="list"><li>10	</li></div>
+	</ul>
+</body>
+</html>
